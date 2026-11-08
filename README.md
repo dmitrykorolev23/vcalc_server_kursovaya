@@ -40,3 +40,11 @@ mkdir -p logs
 -h        справка
 ```
 
+## Модульные тесты
+
+Для тестов нужна библиотека UnitTest++:
+
+```bash
+sudo apt install -y libunittest++-dev
+make test
+```
